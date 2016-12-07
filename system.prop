@@ -271,3 +271,5 @@ ro.com.android.dataroaming=true
 ro.product.cuptsm=XIAOMI|ESE|02|01
 ro.sf.lcd_density=480
 ro.com.google.clientidbase=android-xiaomi
+
+ro.mk.maintainer=zhaochengw
