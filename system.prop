@@ -10,3 +10,5 @@ ro.hardware.fingerprint=fpc
 
 # Radio
 persist.radio.ignore_dom_time=5
+
+ro.mk.maintainer=zhaochengw
