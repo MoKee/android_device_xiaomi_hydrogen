@@ -42,3 +42,8 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # inherit from the proprietary version
 -include vendor/xiaomi/hydrogen/BoardConfigVendor.mk
+
+# Fix the crash of camera caused by compatibility
+# Tell the build system that this device uses legacy camera HAL.
+# Legacy camera HAL is not compatible with CameraServer security feature of Android 7.1.
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
