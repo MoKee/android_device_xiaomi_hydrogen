@@ -20,9 +20,3 @@ ro.sys.display.support=63
 
 # Fingerprint
 ro.hardware.fingerprint=fpc
-
-# Fix up the crash of camera caused by compatibility
-# Tell the build system that this device uses legacy camera HAL.
-# Legacy camera HAL is not compatible with CameraServer security feature of Android 7.1.
-media.stagefright.legacyencoder=true
-media.stagefright.less-secure=true
