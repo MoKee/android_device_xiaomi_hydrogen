@@ -19,7 +19,7 @@
 DEVICE_PATH := device/xiaomi/hydrogen
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hydrogen
+TARGET_OTA_ASSERT_DEVICE := hydrogen,helium
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
