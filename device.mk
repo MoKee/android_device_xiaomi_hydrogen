@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x06_ts.kl:system/vendor/usr/keylayout/ft5x06_ts.kl \
     $(LOCAL_PATH)/keylayout/ft5x46.kl:system/vendor/usr/keylayout/ft5x46.kl \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/vendor/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl:system/vendor/usr/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl  \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/vendor/usr/keylayout/uinput-fpc.kl
 
 # Ramdisk
