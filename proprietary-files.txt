@@ -552,10 +552,6 @@ etc/firmware/a530_pm4.fw
 # IPA
 bin/ipacm-diag
 
-# IRDA
-lib64/hw/consumerir.msm8952.so
-lib/hw/consumerir.msm8952.so
-
 # Keystore
 vendor/lib64/hw/keystore.msm8952.so
 
@@ -803,6 +799,4 @@ vendor/lib/drm/libdrmwvmplugin.so|3bee766222895f524421eb996ca6a08bcf95f19f
 vendor/lib/mediadrm/libwvdrmengine.so|301e0ef26cfc3a22efd52ebf4bb095d0a33bc68d
 
 # WiFi
-bin/cnss-daemon
-bin/cnss_diag
 bin/wcnss_service
