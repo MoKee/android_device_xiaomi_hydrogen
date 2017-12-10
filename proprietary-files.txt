@@ -402,7 +402,7 @@ vendor/lib64/libril-qc-qmi-1.so|27278c8831d7315184ed038797ac09208422be28
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
-vendor/lib64/libsettings.so
+vendor/lib64/libsettings.so|4609cacca0a56dae2596687c8f5f2f9423d4d0d9
 vendor/lib64/libsystem_health_mon.so
 vendor/lib/liblqe.so
 vendor/lib/libmdmdetect.so
