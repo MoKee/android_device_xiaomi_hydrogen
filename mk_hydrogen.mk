@@ -15,7 +15,12 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit from kipper device
+$(call inherit-product, device/xiaomi/hydrogen/device.mk)
 
 # Inherit some common MK stuff.
 $(call inherit-product, vendor/mk/config/common_full_phone.mk)
@@ -31,9 +36,8 @@ TARGET_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Use the latest approved GMS identifiers unless running a signed build
-ifneq ($(SIGN_BUILD),true)
+# Build fingerprint
+BUILD_FINGERPRINT=Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Xiaomi/hydrogen/hydrogen:6.0.1/MMB29M/V8.2.3.0.MBCCNDL:user/release-keys \
     PRIVATE_BUILD_DESC="hydrogen-user 6.0.1 MMB29M V8.2.3.0.MBCCNDL release-keys"
-endif
