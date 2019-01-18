@@ -19,6 +19,3 @@ ro.sys.display.support=63
 
 # Fingerprint
 ro.hardware.fingerprint=fpc
-
-# Graphics
-ro.sf.lcd_density=400
