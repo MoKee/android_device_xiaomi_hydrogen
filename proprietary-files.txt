@@ -394,12 +394,12 @@ vendor/lib/libqcmaputils.so
 vendor/qcril.db
 
 # Time services
--app/TimeService/TimeService.apk
-bin/time_daemon:vendor/bin/time_daemon
-vendor/lib64/libTimeService.so
--vendor/lib64/libtime_genoff.so
-vendor/lib/libTimeService.so
--vendor/lib/libtime_genoff.so
+-app/TimeService/TimeService.apk|272696ddeabc46833ca8cb505763915d496b099e
+bin/time_daemon:vendor/bin/time_daemon|d204f5a1d4fa1d0aebf79bea2f4340e1a42088c7
+vendor/lib/libTimeService.so|04ba8e76da421f5ece33ecb91c725d236dadb4a7
+-vendor/lib/libtime_genoff.so|bb8f2cb4501d2d4374ebf0ea1926dcfccc9d7a70
+vendor/lib64/libTimeService.so|791e3b21d9b96e4295c9fa32953ad817d22b4dab
+-vendor/lib64/libtime_genoff.so|f0d798ce9d2f4e83d343511838c84580c9ffe6f1
 
 # WiFi
 bin/wcnss_service:vendor/bin/wcnss_service|105e7f76da0fcf5725b3b2f8489c8a1536b4e6c0
