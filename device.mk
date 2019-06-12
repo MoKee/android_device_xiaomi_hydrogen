@@ -41,10 +41,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/vendor/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/vendor/usr/keylayout/uinput-fpc.kl
 
-# Libshims
-PRODUCT_PACKAGES += \
-    libshims_ims
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc

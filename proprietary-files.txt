@@ -323,7 +323,7 @@ bin/irsc_util:vendor/bin/irsc_util
 etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml
 etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml
 etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml
-etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
+etc/permissions/qti_permissions.xml|vendor/etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
 -lib64/libqminvapi.so:vendor/lib64/libqminvapi.so
 -lib/libqminvapi.so:vendor/lib/libqminvapi.so
 vendor/lib64/libdiag.so
