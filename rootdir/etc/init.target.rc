@@ -30,30 +30,6 @@
 on early-init
     export LD_SHIM_LIBS /system/vendor/lib64/lib-imsvt.so|libshims_ims.so
 
-service mmbn-daemon /system/bin/mmbn-daemon
+service mmbn-daemon /vendor/bin/mmbn-daemon
     class main
     oneshot
-
-service displayfeature /system/bin/displayfeature
-    class late_start
-    user root
-    group root
-
-on property:init.svc.surfaceflinger=stopped
-    stop displayfeature
-
-on property:init.svc.surfaceflinger=running
-    start displayfeature
-
-on property:init.svc.surfaceflinger=restarting
-    stop displayfeature
-
-on property:init.svc.zygote=stopped
-    stop displayfeature
-
-on property:init.svc.zygote=running
-    start displayfeature
-
-on property:init.svc.zygote=restarting
-    stop displayfeature
-

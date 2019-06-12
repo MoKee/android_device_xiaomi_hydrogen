@@ -22,23 +22,23 @@ etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
 etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
 
 # Camera
-bin/mm-qcamera-daemon
-etc/age_gender_bg
-etc/android_model_facea.dat
-etc/android_model_faceg.dat
-etc/crown_156_128.bin
-etc/face_goodly_208_180
-etc/face_ravishing_238_224
-etc/face_splendid_274_200
-etc/lf_facerank_model.bin
-etc/people_gender.dat
-etc/sdm_ys_32p_120_21_5_perturb50.bin
-etc/watermark_font_2300_3199.dat
-lib/libmorpho_memory_allocator.so
-lib/libmorpho_panorama.so
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+etc/age_gender_bg:vendor/etc/age_gender_bg
+etc/android_model_facea.dat:vendor/etc/android_model_facea.dat
+etc/android_model_faceg.dat:vendor/etc/android_model_faceg.dat
+etc/crown_156_128.bin:vendor/etc/crown_156_128.bin
+etc/face_goodly_208_180:vendor/etc/face_goodly_208_180
+etc/face_ravishing_238_224:vendor/etc/face_ravishing_238_224
+etc/face_splendid_274_200:vendor/etc/face_splendid_274_200
+etc/lf_facerank_model.bin:vendor/etc/lf_facerank_model.bin
+etc/people_gender.dat:vendor/etc/people_gender.dat
+etc/sdm_ys_32p_120_21_5_perturb50.bin:vendor/etc/sdm_ys_32p_120_21_5_perturb50.bin
+etc/watermark_font_2300_3199.dat:vendor/etc/watermark_font_2300_3199.dat
+lib/libmorpho_memory_allocator.so:vendor/lib/libmorpho_memory_allocator.so
+lib/libmorpho_panorama.so:vendor/lib/libmorpho_panorama.so
 vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libchromaflash.so
-vendor/lib/libFaceGrade.so
+vendor/lib/libFaceGrade.so|785ecd72d06f3fb2f3eb1c16f29e4e7f2872e772
 vendor/lib/libFaceProc.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -131,7 +131,7 @@ vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libRecoFace.so
+vendor/lib/libRecoFace.so|623c35a641459e696504b93f57122d76c7588b94
 vendor/lib/libseemore.so
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
@@ -269,14 +269,14 @@ vendor/lib/libchromatix_s5k5e8_qtec_zsl_preview.so
 vendor/lib/libchromatix_s5k5e8_qtec_zsl_video.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_8_0.fw
+etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
+etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
+etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
+etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
+etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera sensors
 vendor/lib/libmmcamera_dw9763_eeprom.so
@@ -291,11 +291,11 @@ vendor/lib/libmmcamera_s5k5e8_qtec_eeprom.so
 vendor/lib/libmmcamera_s5k5e8_qtec.so
 
 # Display calibration data
-etc/pp_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml
-etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml
+etc/pp_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml:vendor/etc/pp_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml
+etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml:vendor/etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml
 
 # DRM
-bin/qseecomd
+bin/qseecomd:vendor/bin/qseecomd
 vendor/bin/qseeproxydaemon
 vendor/lib64/lib-sec-disp.so
 vendor/lib64/libdrmfs.so
@@ -313,21 +313,21 @@ vendor/lib64/libStDrvInt.so
 vendor/lib/libQSEEComAPI.so
 
 # Fingerprint sensor
-lib64/hw/fingerprint.fpc.so
-lib64/lib_fpc_tac_shared.so
-lib/hw/fingerprint.fpc.so
-lib/lib_fpc_tac_shared.so
+lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so
+lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
+lib/hw/fingerprint.fpc.so:vendor/lib/hw/fingerprint.fpc.so
+lib/lib_fpc_tac_shared.so:vendor/lib/lib_fpc_tac_shared.so
 
 # QMI
-bin/irsc_util
-etc/data/dsi_config.xml
-etc/data/netmgr_config.xml
-etc/data/qmi_config.xml
+bin/irsc_util:vendor/bin/irsc_util
+etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml
+etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml
+etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml
 etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
--lib64/libqminvapi.so
--lib/libqminvapi.so
+-lib64/libqminvapi.so:vendor/lib64/libqminvapi.so
+-lib/libqminvapi.so:vendor/lib/libqminvapi.so
 vendor/lib64/libdiag.so
-vendor/lib64/libdsi_netctrl.so
+vendor/lib64/libdsi_netctrl.so|f3a09222a8b45ff4d2a1ffc3c97c7a54ef45d31e
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libqcci_legacy.so
@@ -343,7 +343,7 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 vendor/lib64/libsmemlog.so
 vendor/lib/libdiag.so
-vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsi_netctrl.so|daffbdd915d7a07367991246865b500145a2fdb4
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libqcci_legacy.so
@@ -360,22 +360,21 @@ vendor/lib/libqmiservices.so
 vendor/lib/libsmemlog.so
 
 # Radio
--app/embms/embms.apk
--app/fastdormancy/fastdormancy.apk
--app/shutdownlistener/shutdownlistener.apk
-bin/mmbn-daemon
-bin/netmgrd
-bin/qmuxd
-bin/radish
-bin/rmt_storage
-bin/tftp_server
-etc/permissions/embms.xml
-etc/permissions/qcnvitems.xml
-etc/permissions/qcrilhook.xml
-etc/modem/Diag.cfg
-framework/embmslibrary.jar
--framework/qcnvitems.jar
--framework/qcrilhook.jar
+-app/embms/embms.apk:vendor/app/embms/embms.apk
+-app/fastdormancy/fastdormancy.apk:vendor/app/fastdormancy/fastdormancy.apk
+-app/shutdownlistener/shutdownlistener.apk:vendor/app/shutdownlistener/shutdownlistener.apk
+bin/mmbn-daemon:vendor/bin/mmbn-daemon
+bin/netmgrd:vendor/bin/netmgrd|fa436ddf0d8952aa3dafa979c89230e744494177
+bin/qmuxd:vendor/bin/qmuxd|9a6dffeb7c8902ec7a5cd3c416512f65a7ce2c88
+bin/rmt_storage:vendor/bin/rmt_storage
+bin/tftp_server:vendor/bin/tftp_server
+etc/permissions/embms.xml:vendor/etc/permissions/embms.xml|a2137c642ce17e9796872ddb8390162d1324c6c9
+etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml|f8e863461bfb2e7fc9a36a9fca108d7b51e5600d
+etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml|cf740b4339659e7a30cabcd1c2fe5066e69b8760
+etc/modem/Diag.cfg:vendor/etc/modem/Diag.cfg
+framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
+-framework/qcnvitems.jar:vendor/framework/qcnvitems.jar
+-framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
@@ -383,7 +382,7 @@ vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libril-qc-ltedirectdisc.so
-vendor/lib64/libril-qc-qmi-1.so
+vendor/lib64/libril-qc-qmi-1.so|27278c8831d7315184ed038797ac09208422be28
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
@@ -396,11 +395,11 @@ vendor/qcril.db
 
 # Time services
 -app/TimeService/TimeService.apk
-bin/time_daemon
+bin/time_daemon:vendor/bin/time_daemon
 vendor/lib64/libTimeService.so
 -vendor/lib64/libtime_genoff.so
 vendor/lib/libTimeService.so
 -vendor/lib/libtime_genoff.so
 
 # WiFi
-bin/wcnss_service
+bin/wcnss_service:vendor/bin/wcnss_service|105e7f76da0fcf5725b3b2f8489c8a1536b4e6c0

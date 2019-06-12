@@ -23,5 +23,6 @@ LOCAL_SHARED_LIBRARIES := libstagefright_foundation
 
 LOCAL_MODULE := libshims_ims
 LOCAL_MODULE_TAGS := optional
+LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_SHARED_LIBRARY)
