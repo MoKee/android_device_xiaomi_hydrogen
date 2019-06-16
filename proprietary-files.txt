@@ -417,5 +417,13 @@ vendor/lib/libTimeService.so|04ba8e76da421f5ece33ecb91c725d236dadb4a7
 vendor/lib64/libTimeService.so|791e3b21d9b96e4295c9fa32953ad817d22b4dab
 -vendor/lib64/libtime_genoff.so|f0d798ce9d2f4e83d343511838c84580c9ffe6f1
 
+# Thermal
+etc/thermal-engine-8956.conf:vendor/etc/thermal-engine-8956.conf
+etc/thermal-engine-8976.conf:vendor/etc/thermal-engine-8976.conf
+vendor/bin/thermal-engine|764757153bd504ea67774cd242e0f666cc83ba06
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalioctl.so
+-vendor/lib/libthermalclient.so
+
 # WiFi
 bin/wcnss_service:vendor/bin/wcnss_service|105e7f76da0fcf5725b3b2f8489c8a1536b4e6c0
