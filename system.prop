@@ -21,4 +21,4 @@ ro.sys.display.support=63
 ro.hardware.fingerprint=fpc
 
 # Graphics
-ro.sf.lcd_density=480
+ro.sf.lcd_density=400
